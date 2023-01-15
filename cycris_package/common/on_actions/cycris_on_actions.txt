@@ -1,0 +1,48 @@
+#cycris_on_actions.txt Me + MrFreake
+
+on_game_start = {
+	events = {
+		cycris_game_start.1
+	}
+}
+
+on_five_year_pulse = {
+	events = {
+		midgame_crisis_trigger.1
+	}
+}
+on_bi_yearly_pulse = {
+	events = {
+		gen_events.21
+	}
+}
+
+on_destroy_planet_with_TERRAFORMA_BEAM = {
+	events = {
+		pk_event.86
+	}
+}
+
+on_country_destroyed = {
+	events = {
+		gen_events.22
+	}
+}
+
+on_starbase_destroyed = {
+	events = {
+		gen_events.40
+	}
+}
+
+on_ship_destroyed_victim = {
+	events = {
+		gen_events.26
+	}
+}
+
+on_custom_diplomacy = {
+	events = {
+		gen_events.50
+	}
+}

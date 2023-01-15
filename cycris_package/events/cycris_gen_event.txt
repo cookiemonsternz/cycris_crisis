@@ -73,7 +73,7 @@ country_event = { #second mining base with more assimilation lore wth cyborgs
 			enable_special_project = {
 				name = CYBREX_ARCHEOLOGY_12
 				location = event_target:cybrex_evt_1_target
-				owner = root
+				owner = event_target:player_empire
 			}
 	}
 }
